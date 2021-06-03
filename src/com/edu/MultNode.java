@@ -11,7 +11,7 @@ public class MultNode implements AbstractNode {
     public int calculate() {
         int result = 0;
         for (AbstractNode node : list) {
-            result += node.calculate();
+            result *= node.calculate();
         }
         return result;
     }
