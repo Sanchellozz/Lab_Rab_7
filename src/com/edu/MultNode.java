@@ -9,7 +9,7 @@ public class MultNode implements AbstractNode {
     }
     @Override
     public int calculate() {
-        int result = 0;
+        int result = 1;
         for (AbstractNode node : list) {
             result *= node.calculate();
         }
